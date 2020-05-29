@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Log.v("To Test Conflict",">>>@333")
         replaceFragment(NewsPaperListFragment(),"Page1")
     }
 
