@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Log.v("ddfdfd","dfdfdfdf")
+        Log.v("dfddfd","dfdfdfdfddasds")
         replaceFragment(NewsPaperListFragment(),"Page1")
     }
 
